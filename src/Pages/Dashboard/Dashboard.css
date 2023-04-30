@@ -1,0 +1,29 @@
+body {
+  background-color: #F2F4F8;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+
+  position: relative;
+  width: 1500px;
+height: 1200px;
+
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: left;
+  align-items: start;
+  text-align: left;
+}

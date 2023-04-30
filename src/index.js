@@ -1,17 +1,26 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDOM from 'react-dom';
+import * as serviceWorker from './serviceWorker';
+import MuiThemes from './Utils/Common/MuiThemes';
+import RouteController from './Routes/RouteController';
+import { StatusContextProvider } from './Store/statusContext';
+import { PagamentoContextProvider } from './Store/pagamentoContext';
+import { EntregaContextProvider } from './Store/entregaContext';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <MuiThemes>
+      <PagamentoContextProvider>
+        <StatusContextProvider>
+          <EntregaContextProvider>
+            <RouteController />
+          </EntregaContextProvider>
+        </StatusContextProvider>
+      </PagamentoContextProvider>
+    </MuiThemes>
+  </React.StrictMode>,
+  document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+serviceWorker.unregister();
