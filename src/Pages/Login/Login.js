@@ -1,6 +1,6 @@
 import React from "react";
 import LoginForm from "../../Componentes/LoginBox/LoginForm";
-import { Container } from "@material-ui/core";
+import { Container } from "@mui/material";
 
 function Login(props ) {
 
