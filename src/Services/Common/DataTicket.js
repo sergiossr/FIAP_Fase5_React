@@ -77,17 +77,7 @@ const DataTicket = [
     Email: 'pamap@gmail.com'
   },
 
-  {
-    id: '114',
-    Assunto: '#114 Produto com defeito',
-    Atribuido: 'Atendente50',
-    Status: 'EM ATENDIMENTO',
-    DataAbertura: '06/04/23',
-    SLA: '24hr',
-    Nome: 'blavla 1234',
-    Telefone: '(11)7891012',
-    Email: 'blavla@gmail.com'
-  }
+ 
 ];
 
 module.exports = DataTicket;
