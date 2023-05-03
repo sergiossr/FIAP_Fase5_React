@@ -14,6 +14,7 @@ const TopNavBar = () => {
       //setStatus(status);
 
       context.statusNavBar = status;
+      
       console.log('navbar status', status);
    };
    return (
