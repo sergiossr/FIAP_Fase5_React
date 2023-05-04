@@ -2,20 +2,18 @@ body {
   background-color: #F2F4F8;
 }
 
-.dashboard {
-  display: flex;
-  flex-direction: row;
-  height: 100%;
-}
 
 .content {
   display: flex;
   flex-direction: column;
-  padding: 0px;
+  padding: 5px;
 
-  position: relative;
+  position: fixed;
+  left: 20%;
+  top: 1%;
   width: 1500px;
-height: 1200px;
+  overflow-x: auto;
+  max-width: 100%;
 
 }
 

@@ -37,6 +37,7 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 }));
 
 
+
 export default function CustomizedTables() {
   const navigate = useNavigate(); // obtém o objeto de navegação do React Router
   const [data, setData] = useState([]);
@@ -95,9 +96,9 @@ export default function CustomizedTables() {
   console.log('apos o filtro', filteredData)
 
   return (
-    <div className='ticketContainer'>
-      <TableContainer component={Paper}>
-        <Table sx={{ minWidth: 700 }} aria-label="customized table">
+    <div>
+      <TableContainer >
+        <Table sx={{ maxWidth: 1500 }} >
           <TableHead>
             <TableRow>
               <StyledTableCell>Assunto</StyledTableCell>
