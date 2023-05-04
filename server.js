@@ -17,7 +17,7 @@ app.get('/api/:id', (req, res) => {
   } else {
     res.status(404).json({ message: `Ticket with ID ${ticketId} not found.` });
   }
-});
+}); 
 
 app.get('/api/mensagem/:id', (req, res) => {
   const mensagemId = req.params.id;
