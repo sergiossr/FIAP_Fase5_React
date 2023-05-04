@@ -98,7 +98,7 @@ export default function CustomizedTables() {
   return (
     <div>
       <TableContainer >
-        <Table sx={{ maxWidth: 1500 }} >
+        <Table sx={{ maxWidth: 1000 }} >
           <TableHead>
             <TableRow>
               <StyledTableCell>Assunto</StyledTableCell>
