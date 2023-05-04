@@ -10,7 +10,6 @@
   width: 1000px;
   overflow-x: auto;
   max-width: 100%;
-  overflow-x: scroll;
 }
 
 .title {
@@ -47,7 +46,7 @@
   font-family: 'Arial';
   font-style: normal;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 14px;
   line-height: 100%;
   /* or 16px */
 
