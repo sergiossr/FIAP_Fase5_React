@@ -1,9 +1,9 @@
 .ticket-details-box {
   background-color: #fff;
   height: auto;
-  width: 500px;
+  width: 400px;
   position: fixed;
-  right: 30px;
+  right: 2%;
   top: 100px;
   margin-right: 50px;
   border: 1px solid black;
